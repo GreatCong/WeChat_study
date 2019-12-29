@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "Pages/weather/index",
+    "Pages/index/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#66ccff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "今日天气",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "Pages/weather/index",
+        "text": "weather"
+      },
+      {
+        "pagePath": "Pages/index/index",
+        "text": "index"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
